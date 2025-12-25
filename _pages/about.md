@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <em>At the intersection of catalysis, materials science, and data-driven methods</em><br>
-Seeking Ph.D. research opportunities
+subtitle: <em>At the intersection of catalysis, materials science, and theoretical chemistry</em><br>
+<strong>Seeking Ph.D. research opportunities</strong>
 
 profile:
   align: right
