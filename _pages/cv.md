@@ -37,7 +37,7 @@ nav_title: cv
 ">
 
   <iframe
-    src="/assets/pdf/Sarthak_Maity_CV.pdf"
+    src="/assets/pdf/Sarthak_CV.pdf"
     width="100%"
     height="100%"
     style="border: none;"
