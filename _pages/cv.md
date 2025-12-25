@@ -3,26 +3,32 @@ layout: page
 title: Curriculum Vitae (full)
 permalink: /cv/
 nav: true
-nav_order: 3
+nav_order: 4
+nav_title: cv
 ---
 
-<!-- PDF icon on top-right -->
-<div style="position: absolute; top: 25px; right: 25px; z-index: 10;">
-  <a href="/assets/pdf/Sarthak_CV.pdf" target="_blank" title="Download PDF">
-    <img src="/assets/img/pdf_icon.png" width="38">
+<!-- CV logo on top-right -->
+<div style="
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  z-index: 10;
+">
+  <a href="/assets/pdf/Sarthak_Maity_CV.pdf" target="_blank" title="Download CV (PDF)">
+    <img src="/assets/img/cv-logo.png" width="42">
   </a>
 </div>
 
-<!-- View PDF link (optional, like Zisheng's page) -->
-<p style="text-align:center; margin-top: 10px;">
-  <a href="/assets/pdf/Sarthak_CV.pdf" target="_blank">
+<!-- View PDF link -->
+<p style="text-align:center; margin-top: 12px;">
+  <a href="/assets/pdf/Sarthak_Maity_CV.pdf" target="_blank">
     View PDF
   </a>
 </p>
 
 <hr>
 
-<!-- Scrollable PDF container -->
+<!-- Scrollable full CV viewer -->
 <div style="
   width: 100%;
   height: calc(100vh - 220px);
@@ -31,7 +37,7 @@ nav_order: 3
 ">
 
   <iframe
-    src="/assets/pdf/Sarthak_CV.pdf"
+    src="/assets/pdf/Sarthak_Maity_CV.pdf"
     width="100%"
     height="100%"
     style="border: none;"
