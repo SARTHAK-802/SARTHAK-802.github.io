@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine-learning-driven catalysis and materials science<br>
-Actively seeking Ph.D. research opportunities
+subtitle: <em>At the intersection of catalysis, materials science, and data-driven methods</em><br>
+Seeking Ph.D. research opportunities
 
 profile:
   align: right
