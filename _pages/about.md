@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine-learning-driven catalysis and materials science
+subtitle: Machine-learning-driven catalysis and materials science<br>
+Actively seeking Ph.D. research opportunities
 
 profile:
   align: right
@@ -28,3 +29,8 @@ latest_posts:
 ---
 
 Greetings! I am Sarthak Maity, I got my M.Sc. (2025) in Chemistry (specialization: computaional chemistry) at [Indian Institute of Technology Indore (IIT Indore)](https://www.iiti.ac.in/), India, advised by [Prof. Biswarup Pathak](https://people.iiti.ac.in/~biswarup/). Prior to joining IIT Indore, I received my B.Sc. in Chemistry from [Midnapore College (Autonomous)](https://midnaporecollege.ac.in/) in 2020, West Bengal, India.
+
+My research focuses on DFT-based modeling of catalytic materials and the application of machine learning, including graph neural networks, to materials discovery. I have experience in density functional theory, atomistic simulations, and materials modeling. In parallel, I have developed practical experience in machine learning and deep learning, with a foundational understanding of ML interatomic potentials for DFT-accurate, large-scale atomistic simulations in chemistry and materials science.
+
+At a glance, my graduate-level research involved integrating density functional theory with machine-learning approaches to model and design Pt sub-nanocluster electrocatalysts for the oxygen reduction reaction (ORR), enabling efficient exploration of fluxional cluster geometries and the development of fluxionality-aware structure–stability–activity descriptors.
+
