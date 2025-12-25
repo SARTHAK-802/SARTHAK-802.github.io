@@ -3,24 +3,18 @@ layout: page
 title: Curriculum Vitae (full)
 permalink: /cv/
 nav: true
-nav_order: 4
 nav_title: cv
+nav_order: 4
 ---
 
-<!-- CV logo on top-right -->
-<div style="
-  position: absolute;
-  top: 22px;
-  right: 22px;
-  z-index: 10;
-">
-  <a href="/assets/pdf/Sarthak_CV.pdf" target="_blank" title="Download CV (PDF)">
-    <img src="/assets/img/pdf_icon.jpg" width="42">
+<!-- CV logo (top-right) -->
+<div style="position:absolute; top:22px; right:22px; z-index:10;">
+  <a href="/assets/pdf/Sarthak_CV.pdf" target="_blank">
+    <img src="/assets/img/pdf_icon.png" width="42">
   </a>
 </div>
 
-<!-- View PDF link -->
-<p style="text-align:center; margin-top: 12px;">
+<p style="text-align:center; margin-top:12px;">
   <a href="/assets/pdf/Sarthak_CV.pdf" target="_blank">
     View PDF
   </a>
@@ -28,20 +22,16 @@ nav_title: cv
 
 <hr>
 
-<!-- Scrollable full CV viewer -->
 <div style="
-  width: 100%;
-  height: calc(100vh - 220px);
-  overflow-y: auto;
-  border: 1px solid #ddd;
+  width:100%;
+  height:calc(100vh - 220px);
+  overflow-y:auto;
+  border:1px solid #ddd;
 ">
-
   <iframe
     src="/assets/pdf/Sarthak_CV.pdf"
     width="100%"
     height="100%"
-    style="border: none;"
-    loading="lazy">
+    style="border:none;">
   </iframe>
-
 </div>
