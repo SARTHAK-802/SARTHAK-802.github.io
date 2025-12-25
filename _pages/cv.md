@@ -1,11 +1,7 @@
 ---
-layout: cv
+layout: page
+title: Curriculum Vitae (full)
 permalink: /cv/
-title: cv
 nav: true
-nav_order: 5
-cv_pdf: Sarthak_CV.pdf # you can also use external links here
-description: 
-toc:
-  sidebar: left
+nav_order: 3
 ---
