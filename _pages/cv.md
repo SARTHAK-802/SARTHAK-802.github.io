@@ -2,7 +2,7 @@
 layout: page
 title: Curriculum Vitae (full)
 permalink: /cv/
-nav: true
+nav: false
 ---
 
 <!-- CV logo (top-right) -->
