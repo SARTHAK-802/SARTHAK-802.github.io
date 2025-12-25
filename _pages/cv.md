@@ -14,14 +14,14 @@ nav_title: cv
   right: 22px;
   z-index: 10;
 ">
-  <a href="/assets/pdf/Sarthak_Maity_CV.pdf" target="_blank" title="Download CV (PDF)">
-    <img src="/assets/img/cv-logo.png" width="42">
+  <a href="/assets/pdf/Sarthak_CV.pdf" target="_blank" title="Download CV (PDF)">
+    <img src="/assets/img/pdf_icon.jpg" width="42">
   </a>
 </div>
 
 <!-- View PDF link -->
 <p style="text-align:center; margin-top: 12px;">
-  <a href="/assets/pdf/Sarthak_Maity_CV.pdf" target="_blank">
+  <a href="/assets/pdf/Sarthak_CV.pdf" target="_blank">
     View PDF
   </a>
 </p>
