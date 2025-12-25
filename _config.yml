@@ -33,7 +33,15 @@ navbar_pages:
     url: /
   - name: cv
     url: /cv/
-    
+
+# -----------------------------------------------------------------------------
+# Profile
+# -----------------------------------------------------------------------------
+
+profile:
+  image: assets/img/my_picjpg
+  image_circular: false
+  align: right
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
@@ -63,8 +71,36 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 
+# Enable social icons in navbar (LEFT SIDE)
+enable_navbar_social: true
+
 # Dimensions
 max_width: 930px
+
+# -----------------------------------------------------------------------------
+# Social Links (LEFT ICON BAR)
+# -----------------------------------------------------------------------------
+
+socials:
+  email:
+    icon: fas fa-envelope
+    url: mailto:sarthakmaity450@gmail.com
+
+  orcid:
+    icon: ai ai-orcid
+    url: https://orcid.org/0009-0001-8839-3464
+
+  google_scholar:
+    icon: ai ai-google-scholar
+    url: https://scholar.google.com/citations?user=XXXX
+
+  github:
+    icon: fab fa-github
+    url: https://github.com/SARTHAK-802
+
+  linkedin:
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/your-linkedin/
 
 # TODO: add layout settings (single page vs. multi-page)
 
