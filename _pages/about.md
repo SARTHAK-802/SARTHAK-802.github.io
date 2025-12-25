@@ -2,8 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <em>At the intersection of catalysis, materials science, and theoretical chemistry</em><br>
-<strong>Seeking Ph.D. research opportunities</strong>
+subtitle: |
+  <em>At the intersection of catalysis, materials science, and theoretical chemistry</em><br>
+  Seeking Ph.D. research opportunities
 
 profile:
   align: right
