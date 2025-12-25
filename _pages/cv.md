@@ -10,7 +10,7 @@ nav_order: 4
 <!-- CV logo (top-right) -->
 <div style="position:absolute; top:22px; right:22px; z-index:10;">
   <a href="/assets/pdf/Sarthak_CV.pdf" target="_blank">
-    <img src="/assets/img/pdf_icon.png" width="42">
+    <img src="/assets/img/pdf_icon.jpg" width="42">
   </a>
 </div>
 
