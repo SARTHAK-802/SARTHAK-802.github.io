@@ -1,10 +1,9 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
-inline: false
+date: Dec 19, 2025
+inline: true
 related_posts: false
-published: false
+published: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I have successfully completed the Coursera-certified course Supervised Machine Learning!
