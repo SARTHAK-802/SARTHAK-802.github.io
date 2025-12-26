@@ -1496,3 +1496,9 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+
+/* Increase left margin of main content */
+.page-content {
+  margin-left: 3rem;   /* adjust: 2.5rem / 3rem / 4rem */
+}
