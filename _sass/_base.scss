@@ -1498,7 +1498,8 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 
-/* Increase left margin of main content */
+/* Increase left & right margins */
 .page-content {
-  margin-left: 3rem;   /* adjust: 2.5rem / 3rem / 4rem */
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
