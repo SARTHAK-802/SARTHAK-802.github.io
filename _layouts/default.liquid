@@ -16,23 +16,39 @@
 
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    <!-- ===== MANUAL SOCIAL ICONS (TOP-LEFT) ===== -->
-    <div class="manual-social">
-      <a href="mailto:sarthakmaity450@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://orcid.org/0009-0001-8839-3464" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
-      <a href="https://github.com/SARTHAK-802" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/sarthak-maity-900279283" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://x.com/sarthak_450" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-    </div>
-    <!-- ========================================= -->
-
+    <!-- Header / Navbar -->
     {% include header.liquid %}
 
+    <!-- Main Content -->
     <div class="container mt-5" role="main">
+
+      <!-- ===== SOCIAL ICONS ABOVE NAME (LEFT ALIGNED) ===== -->
+      <div class="social-above-name">
+        <a href="mailto:sarthakmaity450@gmail.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://orcid.org/0009-0001-8839-3464" target="_blank" title="ORCID">
+          <i class="fab fa-orcid"></i>
+        </a>
+        <a href="https://github.com/SARTHAK-802" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/sarthak-maity-900279283" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/sarthak_450" target="_blank" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <!-- ================================================ -->
+
       {{ content }}
+
     </div>
 
+    <!-- Footer -->
     {% include footer.liquid %}
     {% include scripts.liquid %}
+
   </body>
 </html>
