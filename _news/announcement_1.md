@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated with an M.Sc. in Chemistry from IIT Indore.
+Graduated with an M.Sc. in Chemistry from IIT Indore!
