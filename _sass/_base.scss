@@ -1528,3 +1528,24 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+/* ============================= */
+/* Social icons above name */
+/* (Zisheng Zhang style) */
+/* ============================= */
+
+.social-above-name {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 14px; /* space between icons and name */
+}
+
+.social-above-name a {
+  font-size: 20px; /* slightly bigger than navbar */
+  color: var(--global-text-color);
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.social-above-name a:hover {
+  opacity: 1;
+}
