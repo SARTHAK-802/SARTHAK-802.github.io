@@ -5,7 +5,7 @@
 @use "sass:color";
 
 /* =========================
-   LIGHT MODE (UNCHANGED / DEFAULT)
+   LIGHT MODE (DEFAULT / UNCHANGED)
    ========================= */
 :root {
   color-scheme: light;
@@ -17,7 +17,7 @@
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
 
-  /* Default accent (light mode stays same) */
+  /* Light-mode accent (default al-folio) */
   --global-theme-color: #{$purple-color};
   --global-hover-color: #{$purple-color};
   --global-hover-text-color: #{$white-color};
@@ -27,7 +27,6 @@
   --global-footer-link-color: #{$white-color};
 
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
 }
 
 /* =========================
@@ -36,7 +35,7 @@
 html[data-theme="dark"] {
   color-scheme: dark;
 
-  /* 🌌 BACKGROUND */
+  /* 🌌 BACKGROUNDS */
   --global-bg-color: #063b5a;
   --global-card-bg-color: #052f48;
   --global-code-bg-color: #052f48;
@@ -72,33 +71,34 @@ html[data-theme="dark"] {
    VISIBILITY HELPERS
    ========================= */
 .only-light { display: block; }
-.only-dark { display: none; }
+.only-dark  { display: none; }
 
 html[data-theme="dark"] {
   .only-light { display: none; }
-  .only-dark { display: block; }
+  .only-dark  { display: block; }
 }
 
 /* =========================
-   KEEP ONLY ONE THEME TOGGLE
+   SINGLE DARK/LIGHT TOGGLE
    ========================= */
 
-/* Hide system toggle completely */
+/* Remove system toggle */
 #light-toggle-system {
   display: none !important;
 }
 
-/* Hide both by default */
+/* Hide both initially */
 #light-toggle-dark,
 #light-toggle-light {
   display: none;
 }
 
-/* Show ONE toggle depending on current theme */
+/* Show exactly ONE toggle */
 html[data-theme="dark"] #light-toggle-light {
   display: block;
 }
 
-html:not([data-theme="dark"]) #light-toggle-dark {
+html[data-theme="light"] #light-toggle-dark,
+html:not([data-theme]) #light-toggle-dark {
   display: block;
 }
