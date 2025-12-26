@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-certificates",
-          title: "certificates",
+          title: "Certificates",
           description: "",
           section: "Navigation",
           handler: () => {
