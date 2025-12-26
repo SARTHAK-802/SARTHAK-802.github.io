@@ -1,45 +1,52 @@
 /*******************************************************************************
- * Themes — Zisheng Zhang–style Dark Blue Theme
+ * Themes — Light Default + Dark Blue / Gold Accent
  ******************************************************************************/
 
 @use "sass:color";
 
 /* =========================
-   LIGHT MODE (optional, minimal)
+   LIGHT MODE (UNCHANGED / DEFAULT)
    ========================= */
 :root {
   color-scheme: light;
 
-  --global-bg-color: #ffffff;
-  --global-card-bg-color: #ffffff;
-  --global-code-bg-color: #f5f5f5;
+  --global-bg-color: #{$white-color};
+  --global-card-bg-color: #{$white-color};
+  --global-code-bg-color: #{$code-bg-color-light};
 
-  --global-text-color: #000000;
-  --global-text-color-light: #555555;
+  --global-text-color: #{$black-color};
+  --global-text-color-light: #{$grey-color};
 
-  /* Accent */
-  --global-theme-color: #1f4e79;
-  --global-hover-color: #1f4e79;
-  --global-hover-text-color: #ffffff;
+  /* Default accent (light mode stays same) */
+  --global-theme-color: #{$purple-color};
+  --global-hover-color: #{$purple-color};
+  --global-hover-text-color: #{$white-color};
+
+  --global-footer-bg-color: #{$grey-color-dark};
+  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-link-color: #{$white-color};
+
+  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-card-bg-color: #{$white-color};
 }
 
 /* =========================
-   DARK MODE — MAIN STYLE
+   DARK MODE — CUSTOM STYLE
    ========================= */
 html[data-theme="dark"] {
   color-scheme: dark;
 
-  /* 🌌 BACKGROUNDS (deep blue) */
-  --global-bg-color: #063b5a;        /* page background */
-  --global-card-bg-color: #052f48;   /* cards */
-  --global-code-bg-color: #052f48;   /* code blocks */
+  /* 🌌 BACKGROUND */
+  --global-bg-color: #063b5a;
+  --global-card-bg-color: #052f48;
+  --global-code-bg-color: #052f48;
 
   /* 📝 TEXT */
   --global-text-color: #ffffff;
   --global-text-color-light: #cfd8dc;
 
-  /* ⭐ ACCENT (YELLOW like screenshot) */
-  --global-theme-color: #f4c430;     /* links, highlights */
+  /* ⭐ ACCENT — GOLDEN YELLOW */
+  --global-theme-color: #f4c430;
   --global-hover-color: #f4c430;
   --global-hover-text-color: #063b5a;
 
@@ -55,7 +62,7 @@ html[data-theme="dark"] {
   --global-back-to-top-bg-color: rgba(255, 255, 255, 0.4);
   --global-back-to-top-text-color: #063b5a;
 
-  /* CALLOUT BLOCKS */
+  /* CALLOUTS */
   --global-tip-block: #42b983;
   --global-warning-block: #f4c430;
   --global-danger-block: #ff6b6b;
