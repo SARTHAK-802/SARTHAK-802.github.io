@@ -33,5 +33,5 @@ Greetings! I am Sarthak Maity, I got my M.Sc. (2025) in Chemistry (specializatio
 
 My research focuses on DFT-based modeling of catalytic materials and the application of machine learning, including graph neural networks (GNNs), to materials discovery. I have experience in density functional theory, atomistic simulations, and materials modeling. In parallel, I have developed practical experience in machine learning (ML) and deep learning (DL), with a foundational understanding of ML interatomic potentials (MLIPs) for large-scale atomistic simulations in chemistry and materials science.
 
-At a glance, my graduate-level research involved integrating density functional theory with machine-learning approaches to model and design Pt sub-nanocluster electrocatalysts for the oxygen reduction reaction (ORR), enabling efficient exploration of fluxional cluster geometries and the development of fluxionality-aware structure–activity descriptors.
+# At a glance, my graduate-level research involved integrating density functional theory with machine-learning approaches to model and design Pt sub-nanocluster electrocatalysts for the oxygen reduction reaction (ORR), enabling efficient exploration of fluxional cluster geometries and the development of fluxionality-aware structure–activity descriptors.
 
