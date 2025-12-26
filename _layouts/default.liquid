@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
-  <!-- Head -->
   <head>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
     {% if page.redirect %}
       {% if page.redirect == true %}
         {% assign redirect = site.baseurl | append: '/' %}
@@ -13,74 +11,30 @@
       {% endif %}
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
-
     {% include head.liquid %}
   </head>
 
-  <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-<!-- ===== MANUAL SOCIAL ICONS (TOP-LEFT) ===== -->
-<div class="manual-social">
-  <a href="mailto:sarthak@email.com" title="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
 
-  <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" title="ORCID">
-    <i class="fab fa-orcid"></i>
-  </a>
+    <!-- ===== MANUAL SOCIAL ICONS (TOP-LEFT) ===== -->
+    <div class="manual-social">
+      <a href="mailto:sarthak@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
+      <a href="https://scholar.google.com/citations?user=XXXX" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.researchgate.net/profile/XXXX" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+      <a href="https://github.com/SARTHAK-802" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/sarthak-maity" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/your-twitter" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+    <!-- ========================================= -->
 
-  <a href="https://scholar.google.com/citations?user=XXXX" target="_blank" title="Google Scholar">
-    <i class="ai ai-google-scholar"></i>
-  </a>
-
-  <a href="https://www.researchgate.net/profile/XXXX" target="_blank" title="ResearchGate">
-    <i class="fab fa-researchgate"></i>
-  </a>
-
-  <a href="https://github.com/SARTHAK-802" target="_blank" title="GitHub">
-    <i class="fab fa-github"></i>
-  </a>
-
-  <a href="https://linkedin.com/in/sarthak-maity" target="_blank" title="LinkedIn">
-    <i class="fab fa-linkedin"></i>
-  </a>
-
-  <a href="https://twitter.com/your-twitter" target="_blank" title="Twitter">
-    <i class="fab fa-twitter"></i>
-  </a>
-</div>
-<!-- ========================================= -->
-
-    <!-- Header -->
     {% include header.liquid %}
 
-    <!-- Content -->
     <div class="container mt-5" role="main">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == 'right' %}
-          <div class="row">
-            <div class="col-sm-9">{{ content }}</div>
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-          </div>
-        {% else %}
-          <div class="row">
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-            <div class="col-sm-9">{{ content }}</div>
-          </div>
-        {% endif %}
-      {% else %}
-        {{ content }}
-      {% endif %}
+      {{ content }}
     </div>
 
-    <!-- Footer -->
     {% include footer.liquid %}
-
-    <!-- JavaScripts -->
     {% include scripts.liquid %}
   </body>
 </html>
