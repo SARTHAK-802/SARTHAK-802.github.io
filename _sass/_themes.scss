@@ -78,3 +78,27 @@ html[data-theme="dark"] {
   .only-light { display: none; }
   .only-dark { display: block; }
 }
+
+/* =========================
+   KEEP ONLY ONE THEME TOGGLE
+   ========================= */
+
+/* Hide system toggle completely */
+#light-toggle-system {
+  display: none !important;
+}
+
+/* Hide both by default */
+#light-toggle-dark,
+#light-toggle-light {
+  display: none;
+}
+
+/* Show ONE toggle depending on current theme */
+html[data-theme="dark"] #light-toggle-light {
+  display: block;
+}
+
+html:not([data-theme="dark"]) #light-toggle-dark {
+  display: block;
+}
