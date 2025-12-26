@@ -33,6 +33,18 @@ navbar_pages:
   - name: cv
     url: /cv/
 
+# -----------------------------------------------------------------------------  
+# Social links  
+# -----------------------------------------------------------------------------
+social:
+  email: sarthak@email.com
+  orcid: 0000-0000-0000-0000
+  google_scholar: https://scholar.google.com/citations?user=XXXX
+  researchgate: https://www.researchgate.net/profile/XXXX
+  github: SARTHAK-802
+  linkedin: sarthak-maity
+  twitter: your-twitter
+
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
