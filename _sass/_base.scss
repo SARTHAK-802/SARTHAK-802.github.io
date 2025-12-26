@@ -1503,3 +1503,12 @@ mjx-container[jax="CHTML"][display="true"] {
   margin-left: 6rem;
   margin-right: 6rem;
 }
+
+/* Centered narrow content like reference page */
+.page-content {
+  max-width: 1100px;   /* controls left/right space */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
