@@ -597,6 +597,38 @@ footer.sticky-bottom {
   }
 }
 
+/* ============================= */
+/* Manual social icons (TOP-LEFT) */
+/* ============================= */
+
+.manual-social {
+  position: fixed;
+  top: 12px;
+  left: 18px;
+  z-index: 2000;
+  display: flex;
+  gap: 14px;
+}
+
+.manual-social a {
+  color: #f2f2f2;
+  font-size: 18px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.manual-social a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+/* Hide icons on mobile */
+@media (max-width: 768px) {
+  .manual-social {
+    display: none;
+  }
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
