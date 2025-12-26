@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum Vitae (full)   # Page heading (big text)
+title: cv   # Page heading (big text)
 nav: true
 permalink: /cv/
 ---
