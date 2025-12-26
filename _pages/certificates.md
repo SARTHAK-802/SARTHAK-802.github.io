@@ -13,12 +13,20 @@ nav_order: 5
 
   <div class="card">
     <h4>Machine Learning Specialization</h4>
-    <p>Coursera — Andrew Ng</p>
+    <p>Coursera</p>
     <a href="https://www.coursera.org/account/accomplishments/verify/6FVINQX6DJK7" target="_blank">
       View Certificate
     </a>
   </div>
 
+</div>
+
+<div class="card" style="padding-left: 24px;">
+  <h4>Machine Learning Specialization</h4>
+  <p>Coursera — Andrew Ng</p>
+  <a href="https://www.coursera.org/account/accomplishments/XXXXX" target="_blank">
+    View Certificate
+  </a>
 </div>
 
 ---
