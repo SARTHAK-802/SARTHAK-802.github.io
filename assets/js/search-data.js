@@ -374,7 +374,10 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-graduated-with-an-m-sc-in-chemistry-from-iit-indore",
-          title: 'Graduated with an M.Sc. in Chemistry from IIT Indore.',
+          title: 'Graduated with an M.Sc. in Chemistry from IIT Indore!',
+          description: "",
+          section: "News",},{id: "news-i-have-successfully-completed-the-coursera-certified-course-supervised-machine-learning",
+          title: 'I have successfully completed the Coursera-certified course Supervised Machine Learning!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
