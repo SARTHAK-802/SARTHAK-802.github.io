@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: |
-  <em>Integrating theoretical chemistry with ML for catalysis and materials discovery</em><br>
+  <em>Machine learning for catalysis and materials discovery</em><br>
   <strong>Actively seeking Ph.D. research opportunities</strong>
 
 profile:
