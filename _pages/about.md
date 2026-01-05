@@ -4,7 +4,9 @@ title: about
 permalink: /
 subtitle: |
   <em>Machine learning for catalysis and materials discovery</em><br>
-  <strong>Actively seeking Ph.D. research opportunities</strong>
+    <strong style="font-size: 1.5rem;">
+    Actively seeking Ph.D. research opportunities
+    </strong>
 
 profile:
   align: right
