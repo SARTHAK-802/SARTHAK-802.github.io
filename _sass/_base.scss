@@ -1521,3 +1521,29 @@ mjx-container[jax="CHTML"][display="true"] {
   padding-left: 32px;
   padding-right: 32px;
 }
+/* ============================================================
+   Recommended page width override (al-folio / Bootstrap)
+   ============================================================ */
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px !important;
+  }
+}
+
+.container {
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}
