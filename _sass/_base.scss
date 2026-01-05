@@ -1512,3 +1512,12 @@ mjx-container[jax="CHTML"][display="true"] {
 //   padding-left: 5rem;
 //   padding-right: 5rem;
 // }
+/* ============================================================
+   Page width & horizontal margins (match Zisheng Zhang)
+   ============================================================ */
+
+.container {
+  max-width: 1200px;   /* Zisheng-style wide layout */
+  padding-left: 32px;
+  padding-right: 32px;
+}
