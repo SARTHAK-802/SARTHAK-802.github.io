@@ -1,9 +1,3 @@
 - name: "ML Assisted Scaling Descriptors"
   url: "https://github.com/SARTHAK-802/ML_Assisted_Scaling_Descriptors"
-  description: ""
   tag: "ML + Catalysis"
-  tech:
-    - Python
-    - Machine Learning
-    - Materials Science
-  docs: "https://github.com/SARTHAK-802/ML_Assisted_Scaling_Descriptors"
