@@ -1925,3 +1925,26 @@ mjx-container[jax="CHTML"][display="true"] {
   transform: translateY(-2px);
 }
 
+
+/* ===============================
+   Repositories page description
+   =============================== */
+.page-repositories .repo-subtitle {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 950px;
+  opacity: 0.92;
+}
+
+/* ===============================
+   Repo title styling (Golden + not bold)
+   =============================== */
+.page-repositories .repo-title a {
+  color: #f5c542 !important;   /* golden */
+  font-weight: 500 !important; /* not bold */
+}
+
+.page-repositories .repo-title a:hover {
+  color: #ffd56a !important;
+}
+
