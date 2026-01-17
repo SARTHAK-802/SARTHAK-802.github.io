@@ -4,7 +4,7 @@ title: Repositories
 permalink: /repositories/
 nav: true
 nav_order: 4
-description: "My GitHub repositories for research and coding projects."
+description:
 body_class: page-repositories
 ---
 
