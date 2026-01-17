@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CV   # Page heading (big text)
+title: cv
 nav: true
 permalink: /cv/
 ---
