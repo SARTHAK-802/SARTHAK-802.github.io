@@ -1,6 +1,6 @@
 - name: "ML_Assisted_Scaling_Descriptors"
   url: "https://github.com/SARTHAK-802/ML_Assisted_Scaling_Descriptors"
-  description: "Deciphering Key Descriptors for Scaling Relationships in Graphene-Supported Ptₙ Clusters via Machine Learning"
+  description: ""
   tag: "ML + Chemistry"
   tech: ["Machine Learning", "Nanocluster", "Materials Science"]
   docs: "https://github.com/SARTHAK-802/ML_Assisted_Scaling_Descriptors#readme"
