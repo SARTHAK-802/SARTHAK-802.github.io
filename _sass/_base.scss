@@ -1536,107 +1536,34 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 
-// /* ============================================================
-//    Stylish font for Repositories page only
-//    ============================================================ */
-
-// .page-repositories {
-//   font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-// }
-
-// .page-repositories h1,
-// .page-repositories h2,
-// .page-repositories h3 {
-//   font-family: "Space Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-//   letter-spacing: -0.4px;
-// }
-
-// .page-repositories .repo-title a {
-//   font-family: "Space Grotesk", sans-serif;
-//   font-weight: 700;
-//   font-size: 1.35rem;
-// }
-
-// .page-repositories .repo-desc {
-//   font-size: 1.05rem;
-//   line-height: 1.6;
-// }
-
-// .page-repositories .tech-pill {
-//   font-family: "Space Grotesk", sans-serif;
-//   font-weight: 600;
-//   letter-spacing: 0.2px;
-// }
 /* ============================================================
-   Dynamic Repositories Page (Animation + Stats Badge)
+   Stylish font for Repositories page only
    ============================================================ */
 
-.page-repositories .repo-title-big {
-  font-size: 2.4rem;
-  font-weight: 900;
-  letter-spacing: -0.6px;
-  margin-bottom: 0.8rem;
+.page-repositories {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
-.page-repositories .repo-subtitle {
-  font-size: 1.08rem;
-  opacity: 0.88;
-  max-width: 900px;
-  margin: 0 auto 1.2rem auto;
+.page-repositories h1,
+.page-repositories h2,
+.page-repositories h3 {
+  font-family: "Space Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  letter-spacing: -0.4px;
+}
+
+.page-repositories .repo-title a {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+}
+
+.page-repositories .repo-desc {
+  font-size: 1.05rem;
   line-height: 1.6;
 }
 
-.page-repositories .accent {
-  font-weight: 700;
-  color: var(--global-theme-color);
-}
-
-.page-repositories .repo-stats {
-  margin-top: 0.5rem;
-}
-
-.page-repositories .repo-count-badge {
-  display: inline-block;
-  padding: 8px 14px;
-  border-radius: 999px;
-  font-size: 0.95rem;
-  font-weight: 700;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.09);
-}
-
-/* Fade-in animation for cards */
-@keyframes repoFadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(18px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.page-repositories .repo-card {
-  animation: repoFadeUp 0.55s ease both;
-}
-
-/* Stagger animation (different delay for each card) */
-.page-repositories .repo-card:nth-child(1) { animation-delay: 0.05s; }
-.page-repositories .repo-card:nth-child(2) { animation-delay: 0.12s; }
-.page-repositories .repo-card:nth-child(3) { animation-delay: 0.19s; }
-.page-repositories .repo-card:nth-child(4) { animation-delay: 0.26s; }
-.page-repositories .repo-card:nth-child(5) { animation-delay: 0.33s; }
-.page-repositories .repo-card:nth-child(6) { animation-delay: 0.40s; }
-.page-repositories .repo-card:nth-child(7) { animation-delay: 0.47s; }
-.page-repositories .repo-card:nth-child(8) { animation-delay: 0.54s; }
-.page-repositories .repo-card:nth-child(9) { animation-delay: 0.61s; }
-.page-repositories .repo-card:nth-child(10) { animation-delay: 0.68s; }
-
-/* Extra premium hover glow */
-.page-repositories .repo-card:hover {
-  border-color: rgba(120, 80, 255, 0.35);
-  box-shadow:
-    0 10px 28px rgba(0, 0, 0, 0.12),
-    0 0 0 1px rgba(120, 80, 255, 0.12);
+.page-repositories .tech-pill {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
 }
