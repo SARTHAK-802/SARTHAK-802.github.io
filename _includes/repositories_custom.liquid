@@ -1,0 +1,45 @@
+{% assign repos = site.data.featured_repos %}
+
+<div class="repo-grid">
+  {% for repo in repos %}
+    <div class="repo-card">
+
+      <div class="repo-top">
+        <div class="repo-title">
+          <a href="{{ repo.url }}" target="_blank">{{ repo.name }}</a>
+        </div>
+
+        {% if repo.tag %}
+          <span class="repo-tag">{{ repo.tag }}</span>
+        {% endif %}
+      </div>
+
+      <p class="repo-desc">{{ repo.description }}</p>
+
+      {% if repo.tech %}
+      <div class="repo-tech">
+        {% for t in repo.tech %}
+          <span class="tech-pill">{{ t }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="repo-buttons">
+        <a class="btn-repo" href="{{ repo.url }}" target="_blank">GitHub</a>
+
+        {% if repo.demo %}
+          <a class="btn-repo alt" href="{{ repo.demo }}" target="_blank">Live Demo</a>
+        {% endif %}
+
+        {% if repo.paper %}
+          <a class="btn-repo alt" href="{{ repo.paper }}" target="_blank">Paper</a>
+        {% endif %}
+
+        {% if repo.docs %}
+          <a class="btn-repo alt" href="{{ repo.docs }}" target="_blank">Docs</a>
+        {% endif %}
+      </div>
+
+    </div>
+  {% endfor %}
+</div>
