@@ -1,5 +1,7 @@
 - name: "ML_Assisted_Scaling_Descriptors"
   url: "https://github.com/SARTHAK-802/ML_Assisted_Scaling_Descriptors"
   description: ""
-  tag: "ML + Chemistry"
-  docs: "https://github.com/SARTHAK-802/ML_Assisted_Scaling_Descriptors#readme"
+  tag: "Material Science"
+  tech: ["Machine Learning", "Subnanoclusters"]
+  docs: "https://github.com/SARTHAK-802/ML_Assisted_Scaling_Descriptors"
+
