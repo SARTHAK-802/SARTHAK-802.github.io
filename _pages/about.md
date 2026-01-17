@@ -31,7 +31,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Greetings! I am Sarthak Maity, I got my M.Sc. (2025) in Chemistry (specialization: computaional chemistry) at [Indian Institute of Technology Indore (IIT Indore)](https://www.iiti.ac.in/), India, advised by [Prof. Biswarup Pathak](https://people.iiti.ac.in/~biswarup/). Prior to joining IIT Indore, I received my B.Sc. in Chemistry from [Midnapore College (Autonomous)](https://midnaporecollege.ac.in/) in 2020, West Bengal, India.
+Greetings! I am Sarthak Maity, I got my M.Sc. (2025) in Chemistry (specialization: computaional chemistry) at [Indian Institute of Technology Indore (IIT Indore)](https://www.iiti.ac.in/), India, advised by [Prof. Biswarup Pathak](https://people.iiti.ac.in/~biswarup/). Prior to joining IIT Indore, I received my B.Sc. in Chemistry from [Midnapore College (Autonomous)](https://midnaporecollege.ac.in/) in 2023, West Bengal, India.
 
 My research focuses on DFT-based modeling of catalytic materials and the application of machine learning, including graph neural networks (GNNs), to materials discovery. I have experience in density functional theory, atomistic simulations, and materials modeling. In parallel, I have developed practical experience in machine learning (ML) and deep learning (DL), with a foundational understanding of ML interatomic potentials (MLIPs) for large-scale atomistic simulations in chemistry and materials science.
 
