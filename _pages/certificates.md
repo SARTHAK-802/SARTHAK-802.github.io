@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Certificates
+title: certificates
 permalink: /certificates/
 nav: true
 nav_order: 5
