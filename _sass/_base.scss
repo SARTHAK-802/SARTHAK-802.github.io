@@ -1512,6 +1512,8 @@ mjx-container[jax="CHTML"][display="true"] {
 //   padding-left: 5rem;
 //   padding-right: 5rem;
 // }
+
+
 /* ============================================================
    page margins (CORRECT)
    ============================================================ */
@@ -1533,6 +1535,7 @@ mjx-container[jax="CHTML"][display="true"] {
     padding-left: 10vw;
     padding-right: 10vw;
   }
+}
 
 /* ============================================================
    Repositories Page (Stylish Layout + Cards)
@@ -1555,13 +1558,13 @@ mjx-container[jax="CHTML"][display="true"] {
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(255, 255, 255, 0.03);
   transition: all 0.25s ease;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
 
 .page-repositories .repo-card:hover {
   transform: translateY(-6px);
   border-color: rgba(120, 80, 255, 0.35);
-  box-shadow: 0 14px 35px rgba(0,0,0,0.18);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
 }
 
 .page-repositories .repo-top {
@@ -1626,12 +1629,12 @@ mjx-container[jax="CHTML"][display="true"] {
   font-weight: 800;
   font-size: 0.88rem;
   text-decoration: none;
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(120, 80, 255, 0.22);
 }
 
 .page-repositories .btn-repo.alt {
-  background: rgba(255,255,255,0.06);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .page-repositories .btn-repo:hover {
