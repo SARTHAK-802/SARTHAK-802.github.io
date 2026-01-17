@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Repositories
+title: repositories
 permalink: /repositories/
 nav: true
 nav_order: 4
