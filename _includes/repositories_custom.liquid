@@ -6,7 +6,7 @@
 
       <div class="repo-top">
         <div class="repo-title">
-          <a href="{{ repo.url }}" target="_blank">{{ repo.name }}</a>
+          <a href="{{ repo.url }}" target="_blank" rel="noopener noreferrer">{{ repo.name }}</a>
         </div>
 
         {% if repo.tag %}
@@ -14,29 +14,31 @@
         {% endif %}
       </div>
 
-      <p class="repo-desc">{{ repo.description }}</p>
+      {% if repo.description %}
+        <p class="repo-desc">{{ repo.description }}</p>
+      {% endif %}
 
       {% if repo.tech %}
-      <div class="repo-tech">
-        {% for t in repo.tech %}
-          <span class="tech-pill">{{ t }}</span>
-        {% endfor %}
-      </div>
+        <div class="repo-tech">
+          {% for t in repo.tech %}
+            <span class="tech-pill">{{ t }}</span>
+          {% endfor %}
+        </div>
       {% endif %}
 
       <div class="repo-buttons">
-        <a class="btn-repo" href="{{ repo.url }}" target="_blank">GitHub</a>
+        <a class="btn-repo" href="{{ repo.url }}" target="_blank" rel="noopener noreferrer">GitHub</a>
 
         {% if repo.docs %}
-          <a class="btn-repo alt" href="{{ repo.docs }}" target="_blank">Docs</a>
+          <a class="btn-repo alt" href="{{ repo.docs }}" target="_blank" rel="noopener noreferrer">Docs</a>
         {% endif %}
 
         {% if repo.demo %}
-          <a class="btn-repo alt" href="{{ repo.demo }}" target="_blank">Demo</a>
+          <a class="btn-repo alt" href="{{ repo.demo }}" target="_blank" rel="noopener noreferrer">Demo</a>
         {% endif %}
 
         {% if repo.paper %}
-          <a class="btn-repo alt" href="{{ repo.paper }}" target="_blank">Paper</a>
+          <a class="btn-repo alt" href="{{ repo.paper }}" target="_blank" rel="noopener noreferrer">Paper</a>
         {% endif %}
       </div>
 
