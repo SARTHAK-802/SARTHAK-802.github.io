@@ -1948,3 +1948,17 @@ mjx-container[jax="CHTML"][display="true"] {
   color: #ffd56a !important;
 }
 
+... (your existing _base.scss code above)
+
+/* ===============================
+   Repositories page top description (RED)
+   =============================== */
+.page-repositories .post-description,
+.page-repositories .page-description,
+.page-repositories .desc,
+.page-repositories p.description {
+  font-size: 1.25rem !important;
+  line-height: 1.9 !important;
+  font-weight: 500 !important;
+  max-width: 1100px;
+}
