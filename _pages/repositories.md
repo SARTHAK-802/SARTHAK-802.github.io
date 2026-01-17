@@ -4,11 +4,11 @@ title: Repositories
 permalink: /repositories/
 nav: true
 nav_order: 4
-description: "My selected GitHub repositories and coding projects."
+description:
 ---
 
 <div class="repo-header">
-  <h2>🚀 Featured Repositories</h2>
+  <h2> Featured Repositories</h2>
   <p>
     A curated list of my best GitHub work in Machine Learning, Computational Chemistry, Scientific Coding and DSA.
   </p>
