@@ -1541,18 +1541,23 @@ mjx-container[jax="CHTML"][display="true"] {
    Repositories Page (Stylish Layout + Cards)
    ============================================================ */
 
-.page-repositories .repo-header {
+/* ============================================================
+   Repositories Page (Stylish Layout + Cards) — GLOBAL
+   Works even if body_class is NOT applied
+   ============================================================ */
+
+.repo-header {
   margin-bottom: 1.8rem;
 }
 
-.page-repositories .repo-grid {
+.repo-grid {
   display: grid;
   gap: 1.2rem;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   margin-top: 1.2rem;
 }
 
-.page-repositories .repo-card {
+.repo-card {
   padding: 1.35rem 1.35rem;
   border-radius: 18px;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1561,30 +1566,30 @@ mjx-container[jax="CHTML"][display="true"] {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
 
-.page-repositories .repo-card:hover {
+.repo-card:hover {
   transform: translateY(-6px);
   border-color: rgba(120, 80, 255, 0.35);
   box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
 }
 
-.page-repositories .repo-top {
+.repo-top {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
 }
 
-.page-repositories .repo-title a {
+.repo-title a {
   font-size: 1.35rem;
   font-weight: 800;
   text-decoration: none;
 }
 
-.page-repositories .repo-title a:hover {
+.repo-title a:hover {
   text-decoration: none;
 }
 
-.page-repositories .repo-tag {
+.repo-tag {
   font-size: 0.75rem;
   padding: 6px 12px;
   border-radius: 999px;
@@ -1594,7 +1599,7 @@ mjx-container[jax="CHTML"][display="true"] {
   white-space: nowrap;
 }
 
-.page-repositories .repo-desc {
+.repo-desc {
   margin-top: 0.7rem;
   margin-bottom: 0.9rem;
   font-size: 1.05rem;
@@ -1602,14 +1607,14 @@ mjx-container[jax="CHTML"][display="true"] {
   opacity: 0.92;
 }
 
-.page-repositories .repo-tech {
+.repo-tech {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 0.9rem;
 }
 
-.page-repositories .tech-pill {
+.tech-pill {
   font-size: 0.78rem;
   padding: 6px 10px;
   border-radius: 999px;
@@ -1617,13 +1622,13 @@ mjx-container[jax="CHTML"][display="true"] {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.page-repositories .repo-buttons {
+.repo-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.page-repositories .btn-repo {
+.btn-repo {
   padding: 8px 13px;
   border-radius: 12px;
   font-weight: 800;
@@ -1633,10 +1638,10 @@ mjx-container[jax="CHTML"][display="true"] {
   background: rgba(120, 80, 255, 0.22);
 }
 
-.page-repositories .btn-repo.alt {
+.btn-repo.alt {
   background: rgba(255, 255, 255, 0.06);
 }
 
-.page-repositories .btn-repo:hover {
+.btn-repo:hover {
   opacity: 0.92;
 }
