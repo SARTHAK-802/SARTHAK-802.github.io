@@ -1536,114 +1536,147 @@ mjx-container[jax="CHTML"][display="true"] {
 }
 
 
+// /* ============================================================
+//    Stylish Repositories Page (Custom Cards)
+//    ============================================================ */
+
+// .repo-header {
+//   text-align: center;
+//   margin-bottom: 2rem;
+// }
+
+// .repo-header h2 {
+//   font-size: 2rem;
+//   font-weight: 800;
+// }
+
+// .repo-header p {
+//   font-size: 1.05rem;
+//   opacity: 0.85;
+// }
+
+// /* Grid layout */
+// .repo-grid {
+//   display: grid;
+//   gap: 1.2rem;
+//   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+//   margin-top: 1.5rem;
+// }
+
+// /* Card UI */
+// .repo-card {
+//   padding: 1.3rem;
+//   border-radius: 18px;
+//   border: 1px solid rgba(255, 255, 255, 0.08);
+//   background: rgba(255, 255, 255, 0.03);
+//   transition: all 0.25s ease;
+//   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+// }
+
+// .repo-card:hover {
+//   transform: translateY(-6px);
+//   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+// }
+
+// /* Top section */
+// .repo-top {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   gap: 12px;
+//   margin-bottom: 0.5rem;
+// }
+
+// .repo-title a {
+//   font-size: 1.25rem;
+//   font-weight: 800;
+//   text-decoration: none;
+// }
+
+// .repo-tag {
+//   font-size: 0.75rem;
+//   padding: 5px 10px;
+//   border-radius: 999px;
+//   background: rgba(120, 80, 255, 0.18);
+//   border: 1px solid rgba(120, 80, 255, 0.25);
+// }
+
+// /* Description */
+// .repo-desc {
+//   margin: 0.8rem 0;
+//   opacity: 0.86;
+// }
+
+// /* Tech pills */
+// .repo-tech {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 8px;
+//   margin-bottom: 0.9rem;
+// }
+
+// .tech-pill {
+//   font-size: 0.75rem;
+//   padding: 5px 9px;
+//   border-radius: 999px;
+//   background: rgba(255, 255, 255, 0.06);
+//   border: 1px solid rgba(255, 255, 255, 0.08);
+// }
+
+// /* Buttons */
+// .repo-buttons {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 10px;
+// }
+
+// .btn-repo {
+//   padding: 7px 12px;
+//   border-radius: 12px;
+//   font-weight: 700;
+//   font-size: 0.86rem;
+//   text-decoration: none;
+//   border: 1px solid rgba(255, 255, 255, 0.15);
+//   background: rgba(120, 80, 255, 0.22);
+// }
+
+// .btn-repo.alt {
+//   background: rgba(255, 255, 255, 0.06);
+// }
+
+// .btn-repo:hover {
+//   opacity: 0.9;
+// }
+
+
 /* ============================================================
-   Stylish Repositories Page (Custom Cards)
+   Stylish font for Repositories page only
    ============================================================ */
 
-.repo-header {
-  text-align: center;
-  margin-bottom: 2rem;
+.page-repositories {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
-.repo-header h2 {
-  font-size: 2rem;
-  font-weight: 800;
+.page-repositories h1,
+.page-repositories h2,
+.page-repositories h3 {
+  font-family: "Space Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  letter-spacing: -0.4px;
 }
 
-.repo-header p {
-  font-size: 1.05rem;
-  opacity: 0.85;
-}
-
-/* Grid layout */
-.repo-grid {
-  display: grid;
-  gap: 1.2rem;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  margin-top: 1.5rem;
-}
-
-/* Card UI */
-.repo-card {
-  padding: 1.3rem;
-  border-radius: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(255, 255, 255, 0.03);
-  transition: all 0.25s ease;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-}
-
-.repo-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
-}
-
-/* Top section */
-.repo-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 0.5rem;
-}
-
-.repo-title a {
-  font-size: 1.25rem;
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.repo-tag {
-  font-size: 0.75rem;
-  padding: 5px 10px;
-  border-radius: 999px;
-  background: rgba(120, 80, 255, 0.18);
-  border: 1px solid rgba(120, 80, 255, 0.25);
-}
-
-/* Description */
-.repo-desc {
-  margin: 0.8rem 0;
-  opacity: 0.86;
-}
-
-/* Tech pills */
-.repo-tech {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 0.9rem;
-}
-
-.tech-pill {
-  font-size: 0.75rem;
-  padding: 5px 9px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-/* Buttons */
-.repo-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.btn-repo {
-  padding: 7px 12px;
-  border-radius: 12px;
+.page-repositories .repo-title a {
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  font-size: 0.86rem;
-  text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: rgba(120, 80, 255, 0.22);
+  font-size: 1.35rem;
 }
 
-.btn-repo.alt {
-  background: rgba(255, 255, 255, 0.06);
+.page-repositories .repo-desc {
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 
-.btn-repo:hover {
-  opacity: 0.9;
+.page-repositories .tech-pill {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
 }
