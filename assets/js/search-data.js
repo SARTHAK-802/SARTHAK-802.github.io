@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/repositories/";
           },
         },{id: "nav-certificates",
-          title: "Certificates",
+          title: "certificates",
           description: "",
           section: "Navigation",
           handler: () => {
