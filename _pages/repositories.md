@@ -11,7 +11,7 @@ body_class: page-repositories
 <div class="repo-header">
   <h2> Featured Repositories</h2>
   <p>
-    A curated list of my entire GitHub work in Machine Learning, Computational Chemistry, Scientific Coding and DSA till now.
+    A curated list of my entire finalize GitHub work in Machine Learning, Computational Chemistry, Scientific Coding and DSA till now.
   </p>
 </div>
 
