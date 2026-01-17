@@ -9,7 +9,7 @@ body_class: page-repositories
 ---
 
 <div class="repo-header">
-  <h2 class="repo-title-big">🚀 Featured Repositories</h2>
+  <h2 class="repo-title-big"> Featured Repositories</h2>
 
   <p class="repo-subtitle">
     A curated collection of my GitHub work in <span class="accent">Machine Learning</span> and <span class="accent">Computational Chemistry</span>.
