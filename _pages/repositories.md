@@ -11,9 +11,11 @@ body_class: page-repositories
 <div class="repo-header">
   <h2 class="repo-title-big"> Featured Repositories</h2>
 
-  <p class="repo-subtitle">
-    A curated collection of my GitHub work in <span class="accent">Machine Learning</span> and <span class="accent">Computational Chemistry</span>.
-  </p>
+<p class="repo-subtitle">
+  All repositories here are <span class="accent">research-oriented</span>, supporting my present and future work in
+  <span class="accent">Machine Learning</span> and <span class="accent">Computational Chemistry</span>.
+</p>
+
 
   <div class="repo-stats">
     <span class="repo-count-badge">
