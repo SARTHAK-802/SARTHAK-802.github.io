@@ -30,6 +30,9 @@ navbar_pages:
     url: /
   - name: cv
     url: /cv/
+  - name: publications
+    url: /publications/
+
 
 # -----------------------------------------------------------------------------  
 # Social links  
