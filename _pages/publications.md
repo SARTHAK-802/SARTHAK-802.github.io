@@ -3,6 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: † denotes equal contribution | * denotes corresponding authorship
+years: [2026]
 nav: true
 nav_order: 1
 ---
@@ -18,12 +19,6 @@ nav_order: 1
     </button>
     <button class="btn btn-sm z-depth-0" data-filter="review">
       Review
-    </button>
-    <button class="btn btn-sm z-depth-0" data-filter="boride">
-      Boride
-    </button>
-    <button class="btn btn-sm z-depth-0" data-filter="restructuring">
-      Restructuring
     </button>
   </div>
 
