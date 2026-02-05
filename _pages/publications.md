@@ -11,9 +11,6 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<p style="font-size: 0.95rem; margin-bottom: 0.6rem;">
-† denotes equal contribution | * denotes corresponding authorship
-</p>
 
 <div id="pub-filters" class="pub-filters" style="margin-bottom: 1rem;">
   <button class="btn btn-sm z-depth-0 active" data-filter="all">All</button>
