@@ -281,13 +281,13 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
-
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Maity]
+  first_name: [Sarthak]
 
   style: apa
   locale: en
+  max_author_limit: 99
 
   source: /_bibliography/
   bibliography: papers.bib
