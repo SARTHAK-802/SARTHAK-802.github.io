@@ -33,3 +33,5 @@ nav_order: 1
 {% endfor %}
 
 </div>
+
+{% include publications_js.html %}
