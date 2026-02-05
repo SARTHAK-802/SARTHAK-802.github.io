@@ -394,7 +394,7 @@ ninja.data = [{
           title: 'I have successfully completed the Coursera-certified course Supervised Machine Learning!',
           description: "",
           section: "News",},{id: "news-my-first-first-author-paper-has-been-published-in-small",
-          title: '🎉 My first first-author paper has been published in Small.',
+          title: '🎉 My first first-author paper has been published in Small!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
