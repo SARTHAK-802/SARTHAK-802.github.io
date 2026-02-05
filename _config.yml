@@ -287,7 +287,7 @@ scholar:
 
   style: apa
   locale: en
-  max_author_limit: 99
+  max_author_limit: 
 
   source: /_bibliography/
   bibliography: papers.bib
