@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "† denotes equal contribution | * denotes corresponding authorship",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-certificates",
           title: "certificates",
           description: "",
@@ -444,6 +451,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/https://orcid.org/0009-0001-8839-3464", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=avV3SBcAAAAJ&hl=en", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Sarthak-Maity?ev=hdr_xprf/", "_blank");
         },
       },{
         id: 'social-github',
