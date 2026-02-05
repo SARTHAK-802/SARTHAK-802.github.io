@@ -34,4 +34,3 @@ nav_order: 1
 
 </div>
 
-{% include publications_js.html %}
